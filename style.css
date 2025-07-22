@@ -1,0 +1,132 @@
+/*To create an background that fills the screen entirely. Even with the height set 100% in the class, the background will not extend to the very edge without these properties set*/
+html, body{                                                                             
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*This ensures every element on the page starts with zero margin/padding and removes the strip on the top of page that some browsers put automatically*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Background*/
+.box{
+    background-color: rgba(230, 199, 153,0.3);
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 30px;
+
+}   
+
+.box h1{
+    text-align: center;
+    font-weight: 800;
+
+}
+
+/*Interface container in the foreground*/
+.main {
+    background-color: rgb(234, 203, 156,0.2);                                 
+    width: 400px;                                                               /*Fixed width to prevent shrinking*/
+    min-height: 70%;                                                            /*Minimum Starting size*/
+    height: auto;                                                               /*Allows height to adjust automatically according to width*/
+    display: block;                                                             /*Div elements are already block-level elements so not strictly necessary*/
+    margin: 30px auto;                                                          /*Top bottom margin of 30px and automatically center horizontally (left/right)*/                                   /*Centralised to the screen*/
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    border: 1px solid rgb(197, 172, 137);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  
+    border-radius: 8px;                                                         /*Soft rounded corners*/
+
+}
+
+.main h3{
+
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+/*Forgot password properties*/
+#forgot{
+    color:  #aaa;
+    text-align:right;
+    margin: 5px;
+}
+
+/*Enter button*/
+#button{
+    display:block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(173, 151, 119, 0.2);
+    border: 1px solid rgb(197, 172, 137);
+    color: rgba(23, 22, 22, 0.7);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);  
+    border: 1px solid rgb(197, 172, 137);
+    border-radius: 3px; 
+    font-weight: 700;
+    font-size: larger;
+}
+
+/*Error message properties*/
+#message{
+    color: rgb(243, 72, 72);
+    margin-top: 10px;
+}
+
+/*Text box properties for the username and password*/
+#userNameEntered,#passwordEntered {
+    width: 100%;
+    font-size:large;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);  
+    border: 1px solid rgb(197, 172, 137);
+    border-radius: 3px;
+}
+
+/*Create horizontal dividing line using built in hr function*/
+hr{
+    border: none;                                                               /*Removes default 3D border */
+    border-top: 2px solid  #aaa;  /* 👈 Solid line */
+    margin: 10px 0;              
+}
+
+h4{
+    font-weight:500;
+    text-align: center;
+    color: #aaa;
+    padding-top: 10px;
+}
+
+/*Customise the space that the social media icons will be residing in on the screen*/
+.social{
+    display: flex;                                                              /*Flexbox makes everything inside the box flexible in position, here to make horizontal layout easier*/
+    justify-content: center;                                                    /*Center icons horizontally*/
+    align-items: center;                                                        /*Center icons vertically*/
+    height: 40px;
+    padding-top: 40px;
+}
+
+/*Customise the appearance of the image icons used*/
+.social img{
+    height: 40px;                                                               /*Limit the size of the image to size of the parent container social*/
+    width: auto;                                                                /*Lets an element’s **width adjust naturally** to maintain its aspect ratio when height is set, preventing distortion*/
+    object-fit: contain;                                                        /*Scales an image or video to fit entirely within its container **without cropping** or distortion, preserving its aspect ratio and showing empty space if the shapes don’t match.*/
+    margin: 0 10px;                                                             /*Horizontal spacing between icons */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); 
+    border-radius: 100px;                                                       /*Rounded corners with a larger round property circulates the round border, 100px sufficent to create round border*/
+    border: 1px solid #ccc;                                                   /*Light border to make icons pop out a little*/
+
+}

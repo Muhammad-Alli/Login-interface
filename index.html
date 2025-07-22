@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="box">
+            <div class="main">
+                <h1>Welcome back</h1>
+                <h3>Username: <br><input type="text" id="userNameEntered"></h3>
+                <h3>Password: <br><input type="number" id="passwordEntered"></h3>
+                <p id="message"></p>  
+                <a id="button" onclick="return checkCreds(event)" href="account.html">Log in</a>
+                <a id="forgot" href="#"><p>Forgot password?</p></a>
+                <hr>
+                <h4>or</h4>
+                <div class="social">
+                <a href="#"><img src="images/goole-icon.png"/></a> 
+                <a href="#"><img src="images/linkedin-icon.png"/></a> 
+                <a href="#"><img src="images/facebook-icon.png"/></a> 
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p> Dont have an account? <a href="#">Sign up </a></p>
+            </div>
+        </div>
+        <script> 
+            var actualPassword= "1234";
+            var actualUserName= "John";
+            var userPassword;
+            var userName;
+
+            function checkCreds(){
+                userPassword = document.getElementById("passwordEntered").value;
+                userName = document.getElementById("userNameEntered").value;
+                
+                if(userPassword == actualPassword && userName == actualUserName){
+                    return true;                
+                }
+                else{
+                    document.getElementById("message").innerHTML = "Username or password is incorrect. Please check carefully and try again.";
+                    event.preventDefault();
+                    return false;
+                }
+            }
+        </script>
+    </body>
+</html>
