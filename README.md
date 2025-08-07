@@ -32,11 +32,11 @@ This front-end project demonstrates fundamental web development skills including
 <p float="left">
   <img src="https://github.com/user-attachments/assets/34944db9-9375-4896-b307-f28bb5c11732" 
        alt="Login interface blank" 
-       style="width: 450px; height: 450px; vertical-align: top;"/>
+       style="width: 400px; height: 450px; vertical-align: top;"/>
        
   <img src="https://github.com/user-attachments/assets/93b4050b-885d-421d-a077-f22543936acc" 
        alt="Login interface error" 
-       style="width: 450px; height: 450px; vertical-align: top;"/>
+       style="width: 400px; height: 450px; vertical-align: top;"/>
 </p>
 
 ---
