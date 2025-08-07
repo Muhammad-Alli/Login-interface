@@ -29,7 +29,7 @@ This front-end project demonstrates fundamental web development skills including
 
 ---
 
-<div align="center">
+<div float="left">
   <img src="https://github.com/user-attachments/assets/34944db9-9375-4896-b307-f28bb5c11732" 
        alt="Login interface blank" 
        style="width: 450px; height: 450px; display: inline-block; vertical-align: top; margin-right: 10px;" />
