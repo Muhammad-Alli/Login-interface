@@ -32,9 +32,9 @@ This front-end project demonstrates fundamental web development skills including
 ## Preview
 
 <p float="left">
-  
-<img width="700" height="500" alt="Login interface error" src="https://github.com/user-attachments/assets/93b4050b-885d-421d-a077-f22543936acc" />
-<img width="700" height="500" alt="Login interface blank" src="https://github.com/user-attachments/assets/34944db9-9375-4896-b307-f28bb5c11732" />
+
+<img width="500" height="400" alt="Login interface blank" src="https://github.com/user-attachments/assets/34944db9-9375-4896-b307-f28bb5c11732" />
+<img width="500" height="400" alt="Login interface error" src="https://github.com/user-attachments/assets/93b4050b-885d-421d-a077-f22543936acc" />
 
 </p>
 
