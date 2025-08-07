@@ -29,15 +29,20 @@ This front-end project demonstrates fundamental web development skills including
 
 ---
 
-<div float="left">
-  <img src="https://github.com/user-attachments/assets/34944db9-9375-4896-b307-f28bb5c11732" 
-       alt="Login interface blank" 
-       style="width: 450px; height: 450px; display: inline-block; vertical-align: top; margin-right: 10px;" />
-
-  <img src="https://github.com/user-attachments/assets/93b4050b-885d-421d-a077-f22543936acc" 
-       alt="Login interface error" 
-       style="width: 450px; height: 450px; display: inline-block; vertical-align: top;" />
-</div>
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/34944db9-9375-4896-b307-f28bb5c11732"
+           alt="Login interface blank"
+           width="450" height="400">
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/93b4050b-885d-421d-a077-f22543936acc"
+           alt="Login interface error"
+           width="450" height="400">
+    </td>
+  </tr>
+</table>
 
 ---
 
